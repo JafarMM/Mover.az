@@ -1,0 +1,81 @@
+header nav {
+  border: solid 1px #e63449ad;
+  background-color: #e63449ad;
+}
+
+header nav img {
+  max-width: 100%;
+  padding-left: 30px;
+  width: 70%;
+  position: absolute;
+}
+
+header nav ul {
+  float: left;
+  list-style: none;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+header nav ul li {
+  padding-left: 14px;
+  display: inline-block;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+header #downnav {
+  padding-top: 80px;
+  padding-bottom: 120px;
+  text-align: start;
+}
+
+header #downnav .righttext {
+  font-size: 20px;
+  color: white;
+}
+
+header #downnav .righttext p {
+  font-size: 15px;
+}
+
+header #downnav .righttext a {
+  color: black;
+  text-decoration: none;
+}
+
+header #downnav #orderbutton {
+  border-radius: 5px;
+  background-color: #e6b800;
+  border-color: #e6b800;
+  padding: 8px 17px 8px 17px;
+}
+
+header #downnav h2 {
+  padding-top: 100px;
+}
+
+header #downnav .carousel {
+  padding-top: 45px;
+}
+
+header #downnav .carousel img {
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+header #downnav .questions {
+  padding-top: 20px;
+}
+
+header #downnav .questions a {
+  background-color: white;
+  padding: 10px 15px 10px 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: red;
+  border: solid 1px white;
+}
