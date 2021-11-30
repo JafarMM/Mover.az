@@ -1,48 +1,29 @@
-let istifadechiler = document.getElementById("istifadechiler");
-let mehsullar = document.getElementById("mehsullar");
-let baglamalar = document.getElementById("baglamalar");
-let emekdashlar = document.getElementById("emekdashlar");
+//changetext function on down navbar
+function terziniyenile(e, n){
+    setInterval(function(){ 
+        document.getElementById("yenilepart").innerHTML=n;
+     }, e);
+}
+terziniyenile(1500, "Terzini");
+terziniyenile(3000, "Geyimini");
+terziniyenile(4500, "Mover ilə");
+terziniyenile(6000, "Kuryerini");
+terziniyenile(7500, "Evini");
 
-function subscribers(){
+
+//statistics number function 
+function subscribers(e,n,f){
     var istifadechiintervar = setInterval(function (){
-        let number = Number(document.getElementById("istifadechiler").textContent);
-        document.getElementById("istifadechiler").textContent=number+1;
-        if(document.getElementById("istifadechiler").textContent==110){
+        let number = Number(document.getElementById(f).textContent);
+        document.getElementById(f).textContent=number+1;
+        if(document.getElementById(f).textContent==e){
            clearInterval(istifadechiintervar);
         };
-    },15);
+    },n);
 }
-subscribers();
+subscribers(110,25,"istifadechiler");
+subscribers(5,400,"mehsullar");
+subscribers(1,1800,"baglamalar");
+subscribers(100,30,"emekdashlar");
+ 
 
-function orders(){
-    var mehsullarinterval = setInterval(function (){
-        let number = Number(document.getElementById("mehsullar").textContent);
-        document.getElementById("mehsullar").textContent=number+1;
-        if(document.getElementById("mehsullar").textContent==5){
-           clearInterval(mehsullarinterval);
-        };
-    },200);
-}
-orders();
-
-function packages(){
-    var baglamalarinterval = setInterval(function (){
-        let number = Number(document.getElementById("baglamalar").textContent);
-        document.getElementById("baglamalar").textContent=number+1;
-        if(document.getElementById("baglamalar").textContent==1){
-           clearInterval(baglamalarinterval);
-        };
-    },1500);
-}
-packages();
-
-function partners(){
-    var emekdashlarinterval = setInterval(function (){
-        let number = Number(document.getElementById("emekdashlar").textContent);
-        document.getElementById("emekdashlar").textContent=number+1;
-        if(document.getElementById("emekdashlar").textContent==100){
-           clearInterval(emekdashlarinterval);
-        };
-    },20);
-}
-partners();

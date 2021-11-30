@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@200;400;500;600&family=Dongle&family=Josefin+Sans:ital,wght@0,400;1,300;1,400;1,500&family=Mochiy+Pop+P+One&family=Titillium+Web:wght@200;300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -63,7 +66,7 @@
                     <div class="col-md-6">
                         <div class="righttext">
                             <h2>
-                                <span>Geyimini</span> Yenilə
+                                <span id="yenilepart"></span> Yenilə
                             </h2>
                             <p>
                                 Türkiyə, Amerika, Rusiya və Dubaydan Azərbaycanın <br>
@@ -148,50 +151,281 @@
         </section>
     </header>
     <!--Header part is done-->
+
+    <!--Main part start-->
     <main>
         <section id="statistics">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3">
-                        <p>
-                            İstifadəçilərimiz
-                        </p>
-                        <span id="istifadechiler">
-                            0 
-                        </span>
-                        <span>min +</span>
+                    <div class="col-md-3 d-flex justify-content-center">
+                        <div class="statisticborders">
+                            <p>
+                                İstifadəçilərimiz
+                            </p>
+                            <span id="istifadechiler">
+                                0 
+                            </span>
+                            <span>min +</span>
+                        </div>
                     </div>
-                    <div class="col-md-3">
-                        <p>
-                            Daşıdığımız məhsullar
-                        </p>
-                        <span id="mehsullar">
-                            0 
-                        </span>
-                        <span>milyon +</span>
+                    <div class="col-md-3 d-flex justify-content-center">
+                        <div class="statisticborders">
+                            <p>
+                                Daşıdığımız məhsullar
+                            </p>
+                            <span id="mehsullar">
+                                0 
+                            </span>
+                            <span>milyon +</span>
+                        </div>
                     </div>
-                    <div class="col-md-3">
-                        <p>
-                            Daşıdığımız bağlamalar
-                        </p>
-                        <span id="baglamalar">
-                            0 
-                        </span>
-                        <span>milyon +</span>
+                    <div class="col-md-3 d-flex justify-content-center">
+                        <div class="statisticborders">
+                            <p>
+                                Daşıdığımız bağlamalar
+                            </p>
+                            <span id="baglamalar">
+                                0 
+                            </span>
+                            <span>milyon +</span>
+                        </div>
                     </div>
-                    <div class="col-md-3">
-                        <p>
-                            Əməkdaşlarımız
-                        </p>
-                        <span id="emekdashlar">
-                            0 
-                        </span>
-                        <span>+</span>
+                    <div class="col-md-3 d-flex justify-content-center">
+                        <div class="statisticborders">
+                            <p>
+                                Əməkdaşlarımız
+                            </p>
+                            <span id="emekdashlar">
+                                0 
+                            </span>
+                            <span>+</span>
+                        </div>  
                     </div>
                 </div>
             </div>
         </section>
+
+        <section id="news">
+            <div class="container">
+                <h1>XƏBƏRLƏR VƏ YENİLİKLƏR</h1>
+                <div class="row news">
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="./images/90802253460233_5007309099297473_8421174507736757676_n.jpeg" alt="news1">
+                            </div>
+                            <div class="col-md-6">
+                                <h4>Mover müştərilərinə <br> Oral-B hədiyyə</h4>
+                                <p>
+                                    Mover müştərilərinə muştuluq!Hər birinə Oral-B hədiyyə!
+                                    Mover-in Bakı, Sumqayıt, Gəncə  
+                                    filiallarindan bağlamasını götürən  
+                                    ilk 10.000 müştəriyə Oral-B Pro-  
+                                    Bərpa diş məcununun sınaq  
+                                    ölçüsü hədiyyə edilir. Azərbaycana
+                                    yeni gələn Oral-B diş məcunu 14 
+                                    günə diş əti və diş minası
+                                    problemlə...
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="./images/12472veb.png" alt="news2">
+                            </div>
+                            <div class="col-md-6">
+                                <h4>Türkiyədə tətil<br>günləri ilə bağlı <br> məlumat </h4>
+                                <p>
+                                    Hörmətli müştərilər, Türkiyədə 15 İyul Demokratiya günü və Qurban Bayramı tətili ilə bağlı bəzi günlərdə Türkiyədaxili karqo şirkətləri fəaliyyət göstərməyəcək.
+                                    15 İyul Demokratiya Günü ilə bağlı iyulun 15-də Türkiyə daxili karqo şirkətləri işləməyəcək. 
+                                    16-18 iyul tarixlərində normal rejim
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="./images/56949Webp.net-resizeimage (2).jpg" alt="">
+                            </div>
+                            <div class="col-md-6">
+                                <h4>Türkiyədən 1<br>kiloqramı cəmi 3.1<br> dollara çatdırırıq</h4>
+                                <p>
+                                    *KAMPANİYA LİMİTLİDİR - PAKET SİFARİŞİ ÜÇÜN SON TARİX: 30 İYUL
+                                    Daşınma qiymətlərində yay kampaniyası! İndi xaricdən sifarişlərdə daşınma haqqını 3.1 dollardan başlayan tariflərlə həyata keçiririk! Daha çox sifariş edin, daha az ödəyin!
+                                    Mover yenə yolundadır! İndi Türkiyədən sifarişləriniz
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="campaigns">
+            <div class="container">
+                <h1>KAMPANİYALAR</h1>
+                <div class="row campaigns">
+                    <div class="col-md-4">
+                        <div class="campaigncard">
+                            <div class="row">
+                                <div class="col-md-7">
+                                     <img src="./images/45663dost-moverda-taninar-referral.webp" alt="campaing1">
+                                </div>
+                                <div class="col-md-5">
+                                    <h4>
+                                        "Dost Mover`da tanınar!" referral kampaniyası
+                                    </h4>
+                                    <p>
+                                        Dost Mover`da tanınar! Dostlarınızı Mover`a dəvət edin, həm siz qazanın...
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="campaignbuttons">
+                                <div class="row">
+                                    <div class="col-md-6 d-flex justify-content-center">
+                                        <a href="#">
+                                            Müddətsiz
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 d-flex justify-content-center">
+                                        <a href="#">
+                                            Ətraflı
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="campaigncard">
+                            <div class="row">
+                                <div class="col-md-7">
+                                     <img src="./images/5776053481qrama qram-01.webp" alt="">
+                                </div>
+                                <div class="col-md-5">
+                                   <h4>
+                                    "Qrama-qram" kampaniyası müddətsiz oldu
+                                   </h4>
+                                   <p>
+                                    Hörmətli müştərilər,Son günlər sifariş verilən bağlamaların çatdırılmasında...
+                                   </p>
+                                </div>
+                            </div>
+                            <div class="campaignbuttons">
+                                <div class="row">
+                                    <div class="col-md-6 d-flex justify-content-center">
+                                        <a href="#">
+                                            Müddətsiz
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 d-flex justify-content-center">
+                                        <a href="#">
+                                            Ətraflı
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>      
+                        </div>         
+                    </div>
+                    <div class="col-md-4">
+                        <div class="campaigncard">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <img src="./images/289079127oxuyan-usaq.jpg" alt="">
+                                </div>
+                                <div class="col-md-5">
+                                    <h4>
+                                        Oxumaq sizdən, endirim bizdən!
+                                    </h4>
+                                    <p>
+                                        Hörmətli müştərilər, əziz kitabsevərlər, hər zaman kitab dostu olan Mover`in...
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="campaignbuttons">
+                                <div class="row">
+                                    <div class="col-md-6 d-flex justify-content-center">
+                                        <a href="#">
+                                            Müddətsiz
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 d-flex justify-content-center">
+                                        <a href="#">
+                                            Ətraflı
+                                        </a>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>     
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tariffs">
+            <div class="container">
+                <h1>Ölkələr üzrə tariflər</h1>
+                <div class="row">
+                    <div class="col-md-4 d-flex justify-content-center">
+                        <a id="tariffbutton" href="#">Basic</a>
+                    </div>
+                    <div class="col-md-4 d-flex justify-content-center">
+                        <a id="tariffbutton" href="#">Standart</a>
+                    </div>
+                    <div class="col-md-4 d-flex justify-content-center">
+                        <a id="tariffbutton" href="#">Premium</a>
+                    </div>
+                </div>
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Çəki</th>
+                        <th scope="col">
+                            <img src="./images/Flag_of_Turkey.svg (1).png" alt="">
+                        </th>
+                        <th scope="col">
+                            <img src="./images/Flag_of_the_United_States_(3-2_aspect_ratio).svg.png" alt="">
+                        </th>
+                        <th scope="col">
+                            <img src="./images/1200px-Arabic-Language-Flag.svg.png" alt="">
+                        </th>
+                        <th scope="col">
+                            <img src="./images/1200px-Flag_of_Russia_with_border.svg.png" alt="">
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                        <td>@mdo</td>
+                      </tr>
+                      
+                    </tbody>
+                  </table>
+            </div>
+        </section>
     </main>
+    <!--Main part end-->
     <footer>
 
     </footer>

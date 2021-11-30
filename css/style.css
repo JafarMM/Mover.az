@@ -1,6 +1,9 @@
 header nav {
+  height: 80px;
   border: solid 1px #e63449ad;
   background-color: #e63449ad;
+  width: 100%;
+  position: fixed;
 }
 
 header nav img {
@@ -18,7 +21,7 @@ header nav ul {
 }
 
 header nav ul li {
-  padding-left: 14px;
+  padding-left: 12px;
   display: inline-block;
 }
 
@@ -28,7 +31,7 @@ header nav ul li a {
 }
 
 header #downnav {
-  padding-top: 80px;
+  padding-top: 105px;
   padding-bottom: 120px;
   text-align: start;
 }
@@ -78,4 +81,123 @@ header #downnav .questions a {
   text-decoration: none;
   color: red;
   border: solid 1px white;
+}
+
+main #statistics {
+  border: solid 2px white;
+  border-bottom-color: #fc7878;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+main #statistics .statisticborders {
+  border: solid 1px white;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+  -webkit-box-shadow: 0 0 5px #585858;
+          box-shadow: 0 0 5px #585858;
+}
+
+main #statistics .statisticborders p {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Bitter', serif;
+}
+
+main #statistics .statisticborders span {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Bitter', serif;
+  color: #fc7878;
+}
+
+main #news {
+  border: solid 2px white;
+  border-bottom-color: #ff4040;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+main #news h1 {
+  font-family: 'Bitter', serif;
+  font-size: 35px;
+  border: solid 2px white;
+  border-bottom-color: red;
+  width: 44%;
+}
+
+main #news .news {
+  padding-top: 30px;
+}
+
+main #news .news img {
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+main #news .news h4 {
+  font-size: 18px;
+  color: #fc1e1e;
+}
+
+main #news .news p {
+  font-size: 11px;
+  color: #4e4e4e;
+}
+
+main #campaigns {
+  border: solid 2px white;
+  border-bottom-color: #ff4040;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+main #campaigns h1 {
+  font-family: 'Bitter', serif;
+  font-size: 35px;
+  border: solid 2px white;
+  border-bottom-color: red;
+  width: 32%;
+}
+
+main #campaigns .campaigns {
+  padding-top: 30px;
+}
+
+main #campaigns .campaigns .col-md-4 .campaigncard {
+  border-radius: 10px;
+  padding: 15px;
+  -webkit-box-shadow: 0 0 5px #585858;
+          box-shadow: 0 0 5px #585858;
+}
+
+main #campaigns .campaigns .col-md-4 .campaigncard img {
+  border-radius: 12px;
+  max-width: 100%;
+  border: solid 1px red;
+}
+
+main #campaigns .campaigns .col-md-4 .campaigncard h4 {
+  font-size: 15px;
+}
+
+main #campaigns .campaigns .col-md-4 .campaigncard p {
+  font-size: 13px;
+}
+
+main #campaigns .campaigns .col-md-4 .campaigncard .campaignbuttons {
+  padding-top: 10px;
+}
+
+main #tariffs #tariffbutton {
+  border: solid 1px red;
+  padding-right: 80px;
+  padding-left: 80px;
+}
+
+main #tariffs .table img {
+  max-width: 20%;
+  width: 25%;
+  border-radius: 30px;
 }

@@ -1,7 +1,10 @@
 header{
     nav{
+        height: 80px;
         border: solid 1px #e63449ad;
         background-color: #e63449ad;
+        width: 100%;
+        position: fixed;
         img{
             max-width: 100%;
             padding-left: 30px;
@@ -14,7 +17,7 @@ header{
             padding-top: 25px;
             padding-bottom: 25px;
             li{
-                padding-left:14px;
+                padding-left:12px;
                 display: inline-block;
                 a{
                     text-decoration: none;
@@ -24,7 +27,7 @@ header{
         }
     }
     #downnav{
-        padding-top: 80px;
+        padding-top: 105px;
         padding-bottom: 120px;
         text-align: start;
         .righttext{

@@ -1,0 +1,105 @@
+main{
+    #statistics{
+        border: solid 2px white;
+        border-bottom-color: rgb(252, 120, 120);
+        padding-top: 50px;
+        padding-bottom: 50px;
+        .statisticborders{
+            border: solid 1px white;
+            border-radius: 8px;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 0 5px rgb(88, 88, 88);
+            p{
+                font-size: 18px;
+                font-weight: 600;
+                font-family: 'Bitter', serif;
+            }
+            span{
+                font-size: 30px;
+                font-weight: 600;
+                font-family: 'Bitter', serif;
+                color: rgb(252, 120, 120);
+            }
+        }
+    }
+    #news{
+        border: solid 2px white;
+        border-bottom-color: rgb(255, 64, 64);
+        padding-top: 50px;
+        padding-bottom: 50px;
+        h1{
+            font-family: 'Bitter', serif;
+            font-size: 35px;
+            border: solid 2px white;
+            border-bottom-color: red;
+            width: 44%;
+        }
+        .news{
+            padding-top: 30px;
+            img{
+                max-width: 100%;
+                border-radius: 12px;
+            }
+            h4{
+                font-size: 18px;
+                color: rgb(252, 30, 30);
+            }
+            p{
+                font-size: 11px;
+                color: rgb(78, 78, 78);
+            }
+        }
+    }
+    #campaigns{
+        border: solid 2px white;
+        border-bottom-color: rgb(255, 64, 64);
+        padding-top: 50px;
+        padding-bottom: 50px;
+        h1{
+            font-family: 'Bitter', serif;
+            font-size: 35px;
+            border: solid 2px white;
+            border-bottom-color: red;
+            width: 32%;
+        }
+        .campaigns{
+            padding-top: 30px;
+            .col-md-4{
+                .campaigncard{
+                    border-radius: 10px;
+                    padding: 15px;
+                    box-shadow: 0 0 5px rgb(88, 88, 88);
+                    img{
+                        border-radius: 12px;
+                        max-width: 100%;
+                        border: solid 1px red;
+                    }
+                    h4{
+                        font-size: 15px;
+                    }
+                    p{
+                        font-size: 13px;
+                    }
+                    .campaignbuttons{
+                        padding-top: 10px;
+                    }
+                }
+            }         
+        }
+    }
+    #tariffs{
+        #tariffbutton{
+            border: solid 1px red;
+            padding-right: 80px;
+            padding-left: 80px;
+        }
+        .table{
+            img{
+                max-width: 20%;
+                width: 25%;
+                border-radius: 30px;
+            }
+        }
+    }
+}
