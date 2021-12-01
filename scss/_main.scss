@@ -89,17 +89,42 @@ main{
         }
     }
     #tariffs{
-        #tariffbutton{
-            border: solid 1px red;
-            padding-right: 80px;
-            padding-left: 80px;
+        .tariffs{
+            #tariffheader{
+                padding-bottom: 20px;
+            }
+            button{
+                text-decoration: none;
+                border: solid 1px #cd374b;
+                border-radius:8px;
+                padding-right: 85px;
+                padding-left: 85px;
+                color: #cd374b;
+                background-color: white;
+            }
+            button:hover{
+                border: solid 1px rgb(148, 0, 0);
+                color: white;
+                background-color: rgb(179, 0, 0);
+            }
+            padding-top: 50px;
+            padding-bottom: 50px;
         }
         .table{
+            #cheki{
+                width: 250px;
+            }
             img{
                 max-width: 20%;
                 width: 25%;
                 border-radius: 30px;
             }
+        }
+        #table2{
+            display: none;
+        }
+        #table3{
+            display: none;
         }
     }
 }

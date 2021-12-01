@@ -26,4 +26,16 @@ subscribers(5,400,"mehsullar");
 subscribers(1,1800,"baglamalar");
 subscribers(100,30,"emekdashlar");
  
-
+//Tariffs events
+function tariffevents(a,b,c,d){
+    document.getElementById(a).addEventListener('click',function(){
+        document.getElementById(b).style.display="block";
+        document.getElementById(b).style.display="block";
+        document.getElementById(c).style.display="none";
+        document.getElementById(d).style.display="none";
+    });
+}
+tariffevents("standartbutton","table2","table1","table3");
+tariffevents("basicbutton","table1","table2","table3");
+tariffevents("premiumbutton","table3","table2","table1");
+ 

@@ -367,61 +367,202 @@
 
         <section id="tariffs">
             <div class="container">
-                <h1>Ölkələr üzrə tariflər</h1>
-                <div class="row">
-                    <div class="col-md-4 d-flex justify-content-center">
-                        <a id="tariffbutton" href="#">Basic</a>
-                    </div>
-                    <div class="col-md-4 d-flex justify-content-center">
-                        <a id="tariffbutton" href="#">Standart</a>
-                    </div>
-                    <div class="col-md-4 d-flex justify-content-center">
-                        <a id="tariffbutton" href="#">Premium</a>
+                <div class="tariffs">
+                    <h1 id="tariffheader">Ölkələr üzrə tariflər</h1>
+                    <div class="row">
+                        <div class="col-md-4 d-flex justify-content-center">
+                            <button id="basicbutton">Basic</a>
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-center">
+                            <button id="standartbutton">Standart</a>
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-center">
+                            <button id="premiumbutton">Premium</a>
+                        </div>
                     </div>
                 </div>
-                <table class="table">
+                <table id="table1" class="table">
                     <thead>
                       <tr>
-                        <th scope="col">Çəki</th>
+                        <th id="cheki" scope="col">Çəki</th>
                         <th scope="col">
                             <img src="./images/Flag_of_Turkey.svg (1).png" alt="">
+                            TÜR
                         </th>
                         <th scope="col">
                             <img src="./images/Flag_of_the_United_States_(3-2_aspect_ratio).svg.png" alt="">
+                            ABŞ
                         </th>
                         <th scope="col">
                             <img src="./images/1200px-Arabic-Language-Flag.svg.png" alt="">
+                            BƏƏ
                         </th>
                         <th scope="col">
                             <img src="./images/1200px-Flag_of_Russia_with_border.svg.png" alt="">
+                            RUS
                         </th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                        <td>@mdo</td>
+                        <th scope="row">0,10 kq-dək</th>
+                        <td>2$</td>
+                        <td>3.50$</td>
+                        <td>5.10$</td>
+                        <td>3.50$</td>
                       </tr>
                       <tr>
-                        <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
-                        <td>@mdo</td>
+                        <th scope="row">0,10 - 0.25 kq-dək</th>
+                        <td>2$</td>
+                        <td>4.50$</td>
+                        <td>5.10$</td>
+                        <td>4.50$</td>
                       </tr>
                       <tr>
-                        <th scope="row">3</th>
-                        <td>Larry</td>
-                        <td>the Bird</td>
-                        <td>@twitter</td>
-                        <td>@mdo</td>
+                        <th scope="row">0,25 - 0.5 kq-dək</th>
+                        <td>3$</td>
+                        <td>5.50$</td>
+                        <td>5.10$</td>
+                        <td>5.50$</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">0,50 - 0.75 kq-dək</th>
+                        <td>4$</td>
+                        <td>6.50$</td>
+                        <td>5.10$</td>
+                        <td>6.50$</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">0,75 kq-dan yuxarı</th>
+                        <td>kq*4.5$</td>
+                        <td>kq*7.5$</td>
+                        <td>kq*7.5$</td>
+                        <td>kq*7.5$</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table id="table2" class="table">
+                    <thead>
+                      <tr>
+                        <th id="cheki" scope="col">Çəki</th>
+                        <th scope="col">
+                            <img src="./images/Flag_of_Turkey.svg (1).png" alt="">
+                            TÜR
+                        </th>
+                        <th scope="col">
+                            <img src="./images/Flag_of_the_United_States_(3-2_aspect_ratio).svg.png" alt="">
+                            ABŞ
+                        </th>
+                        <th scope="col">
+                            <img src="./images/1200px-Arabic-Language-Flag.svg.png" alt="">
+                            BƏƏ
+                        </th>
+                        <th scope="col">
+                            <img src="./images/1200px-Flag_of_Russia_with_border.svg.png" alt="">
+                            RUS
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">0,10 kq-dək</th>
+                        <td>kq*6.5$</td>
+                        <td>3.95$</td>
+                        <td>5.55$</td>
+                        <td>3.95$</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">0,10 - 0.25 kq-dək</th>
+                        <td>kq*6.5$</td>
+                        <td>4.95$</td>
+                        <td>5.55$</td>
+                        <td>4.95$</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">0,25 - 0.5 kq-dək</th>
+                        <td>kq*6.5$</td>
+                        <td>5.95$</td>
+                        <td>5.55$</td>
+                        <td>5.95$</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">0,50 - 0.75 kq-dək</th>
+                        <td>kq*6.5$</td>
+                        <td>6.95$</td>
+                        <td>5.55$</td>
+                        <td>6.95$</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">0,75 kq-dan yuxarı</th>
+                        <td>kq*6.5$</td>
+                        <td>kq*7.95$</td>
+                        <td>kq*7.95$</td>
+                        <td>kq*7.95$</td>
                       </tr>
                       
                     </tbody>
-                  </table>
+                  </table>    
+                  <table id="table3" class="table">
+                    <thead>
+                      <tr>
+                        <th id="cheki" scope="col">Çəki</th>
+                        <th scope="col">
+                            <img src="./images/Flag_of_Turkey.svg (1).png" alt="">
+                            TÜR
+                        </th>
+                        <th scope="col">
+                            <img src="./images/Flag_of_the_United_States_(3-2_aspect_ratio).svg.png" alt="">
+                            ABŞ
+                        </th>
+                        <th scope="col">
+                            <img src="./images/1200px-Arabic-Language-Flag.svg.png" alt="">
+                            BƏƏ
+                        </th>
+                        <th scope="col">
+                            <img src="./images/1200px-Flag_of_Russia_with_border.svg.png" alt="">
+                            RUS
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">0,10 kq-dək</th>
+                        <td>kq*9$</td>
+                        <td>4.95$</td>
+                        <td>4.95$</td>
+                        <td>4.95$</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">0,10 - 0.25 kq-dək</th>
+                        <td>kq*9$</td>
+                        <td>5.95$</td>
+                        <td>5.95$</td>
+                        <td>5.95$</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">0,25 - 0.5 kq-dək</th>
+                        <td>kq*9$</td>
+                        <td>6.95$</td>
+                        <td>6.95$</td>
+                        <td>6.95$</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">0,50 - 0.75 kq-dək</th>
+                        <td>kq*9$</td>
+                        <td>7.95$</td>
+                        <td>7.95$</td>
+                        <td>7.95$</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">0,75 kq-dan yuxarı</th>
+                        <td>kq*9$</td>
+                        <td>kq*11$</td>
+                        <td>kq*11$</td>
+                        <td>kq*11$</td>
+                      </tr>
+                      
+                    </tbody>
+                  </table>   
             </div>
         </section>
     </main>
