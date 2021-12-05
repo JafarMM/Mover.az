@@ -10,6 +10,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@200;400;500;600&family=Dongle&family=Josefin+Sans:ital,wght@0,400;1,300;1,400;1,500&family=Mochiy+Pop+P+One&family=Titillium+Web:wght@200;300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" />
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -367,8 +374,9 @@
 
         <section id="tariffs">
             <div class="container">
-                <div class="tariffs">
-                    <h1 id="tariffheader">Ölkələr üzrə tariflər</h1>
+                <!--Basic standart & premium buttons-->
+                <h1 id="tariffheader">Ölkələr üzrə tariflər</h1>
+                <div class="tariffs">  
                     <div class="row">
                         <div class="col-md-4 d-flex justify-content-center">
                             <button id="basicbutton">Basic</a>
@@ -381,6 +389,9 @@
                         </div>
                     </div>
                 </div>
+                <!--Buttons end-->
+
+                <!--Basic tariff table start-->
                 <table id="table1" class="table">
                     <thead>
                       <tr>
@@ -440,8 +451,11 @@
                         <td>kq*7.5$</td>
                       </tr>
                     </tbody>
-                  </table>
-                  <table id="table2" class="table">
+                </table>
+                <!--Basic tariff table end-->
+
+                <!--Standart tariff table start-->
+                <table id="table2" class="table">
                     <thead>
                       <tr>
                         <th id="cheki" scope="col">Çəki</th>
@@ -501,8 +515,11 @@
                       </tr>
                       
                     </tbody>
-                  </table>    
-                  <table id="table3" class="table">
+                </table>    
+                <!--Standart tariff table end-->
+
+                <!--Premium tariff table start-->
+                <table id="table3" class="table">
                     <thead>
                       <tr>
                         <th id="cheki" scope="col">Çəki</th>
@@ -562,8 +579,142 @@
                       </tr>
                       
                     </tbody>
-                  </table>   
+                </table> 
+                <!--Premium tariff table end-->  
+                <button type="submit">
+                  Ətraflı
+                </button>
+                <p>Korporativ daşınmalar üçün  <i>corporate@mover.az</i>  ünvanına daxil ola bilərsiniz</p>
+                <h6>
+                    Türkiyədən sifarişlərdə çəkisi 1 kq-a qədər olan bağlamaların daşınma haqqı YÜKÜN XALİS ÇƏKİSİNƏ GÖRƏ - QRAMA-QRAM (Standart və Premium tariflərdə) hesablanır.
+                </h6>
             </div>
+        </section>
+
+        <section id="subscriberscomment">
+            <div class="container">
+                <h1>
+                    Müştəri rəyləri
+                </h1>
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                      <div class="card col-md-12 reviewcard" style="width: 20rem;">
+                        <div>
+                            <div class="row firstcard">
+                                <div class="col-md-6 d-flex justify-content-center">
+                                  <img src="./images/153179.png" id="mainimg1" class="card-img-top" alt="Card image cap"> 
+                                </div>
+                                <div class="col-md-6 d-flex justify-content-center">
+                                    <p>Enver Agayev</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                          <p class="card-text">
+                            Məsləhət görə biləcəyim az şirkətdən biridir. Rahatlıqla istifadə edə bilərsiniz.
+                         </p> 
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <div class="item">
+                        <div class="card col-md-12 reviewcard" style="width: 20rem;">
+                          <div>
+                            <div class="row firstcard">
+                                <div class="col-md-6 d-flex justify-content-center">
+                                  <img src="./images/indir.png" id="mainimg1" class="card-img-top" alt="Card image cap"> 
+                                </div>
+                                <div class="col-md-6 d-flex justify-content-center">
+                                    <p>Enver Agayev</p>
+                                </div>
+                            </div>     
+                          </div>
+                          <div class="card-body">
+                            <p class="card-text">
+                                Xidmətdən ilk dəfə idi istifadə edirdim. Sifarişi də özləri etdi. 4 iş günü müddətində də çatdırdılar. Təşəkkür edirəm.
+                             </p> 
+                          </div>
+                        </div>
+                        
+                      </div>
+                      <div class="item">
+                         <div class="card col-md-12 reviewcard" style="width: 20rem;">
+                            <div> 
+                                <div class="row firstcard">
+                                    <div class="col-md-6 d-flex justify-content-center">
+                                    <img src="./images/931115.png" id="mainimg1" class="card-img-top" alt="Card image cap"> 
+                                    </div>
+                                    <div class="col-md-6 d-flex justify-content-center">
+                                        <p>Enver Agayev</p>
+                                    </div>
+                                </div>     
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Razı qaldım. Hər kəsə tövsiyə edirəm.
+                                </p> 
+                            </div>
+                         </div> 
+                      </div>
+                      <div class="item">
+                            <div class="card col-md-12 reviewcard" style="width: 20rem;">
+                            <div> 
+                                <div class="row firstcard">
+                                    <div class="col-md-6 d-flex justify-content-center">
+                                    <img src="./images/avatar-free-people-icons.jpg" id="mainimg1" class="card-img-top" alt="Card image cap"> 
+                                    </div>
+                                    <div class="col-md-6 d-flex justify-content-center">
+                                        <p>Enver Agayev</p>
+                                    </div>
+                                </div>  
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Gülərüz personal, xoş münasibət və bununla yanaşı, sifarişlərin vaxtında çatdırılması.
+                                </p> 
+                            </div>
+                            </div> 
+                      </div>
+                      <div class="item">
+                            <div class="card col-md-12 reviewcard" style="width: 20rem;">
+                            <div>
+                                <div class="row firstcard">
+                                    <div class="col-md-6 d-flex justify-content-center">
+                                    <img src="./images/thumb-302159.jpg" id="mainimg1" class="card-img-top" alt="Card image cap"> 
+                                    </div>
+                                    <div class="col-md-6 d-flex justify-content-center">
+                                        <p>Enver Agayev</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Mən ilk dəfə sifariş etdim və çox razı qaldım. Heç 5 gün də çəkmədi, bağlama ofisə çatdı. İşlərinizdə uğurlar.
+                                </p> 
+                            </div>
+                            </div>
+                      </div>
+                      <div class="item">
+                            <div class="card col-md-12 reviewcard" style="width: 20rem;">
+                            <div>
+                                <div class="row firstcard">
+                                    <div class="col-md-6 d-flex justify-content-center">
+                                    <img src="./images/607ba1795c55444e38bed385a9272932.png" id="mainimg1" class="card-img-top" alt="Card image cap"> 
+                                    </div>
+                                    <div class="col-md-6 d-flex justify-content-center">
+                                        <p>Enver Agayev</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Məmnun qaldım. İşlərinizdə uğurlar.
+                                </p> 
+                            </div>
+                            </div>
+                      </div>
+                </div>
+            </div> 
         </section>
     </main>
     <!--Main part end-->
@@ -571,10 +722,54 @@
 
     </footer>
 
-
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="./owl-carousel/owl.carousel.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous"></script>
     <script src="./script/script.js"></script>
+    <script>
+       $('.owl-carousel').owlCarousel({
+    stagePadding: 200,
+    loop:true,
+    margin:10,
+    nav:false,
+    items:1,
+    lazyLoad: true,
+    nav:true,
+  responsive:{
+        0:{
+            items:1,
+            stagePadding: 60
+        },
+        600:{
+            items:1,
+            stagePadding: 100
+        },
+        1000:{
+            items:1,
+            stagePadding: 200
+        },
+        1200:{
+            items:1,
+            stagePadding: 250
+        },
+        1400:{
+            items:1,
+            stagePadding: 300
+        },
+        1600:{
+            items:1,
+            stagePadding: 350
+        },
+        1800:{
+            items:1,
+            stagePadding: 400
+        }
+    }
+})
+    </script>
 </body>
 </html>

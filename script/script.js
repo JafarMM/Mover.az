@@ -39,3 +39,32 @@ tariffevents("standartbutton","table2","table1","table3");
 tariffevents("basicbutton","table1","table2","table3");
 tariffevents("premiumbutton","table3","table2","table1");
  
+$(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+
+        items:2,
+        margin:25,
+        loop:true,
+        nav:true,
+         
+    });
+  });
+
+
+  $('.owl-theme').owlCarousel({
+    loop:false,
+    margin:10,
+    nav:true,
+    startPosition:0,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})
