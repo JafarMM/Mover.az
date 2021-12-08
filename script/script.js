@@ -4,7 +4,7 @@ function terziniyenile(e, n){
         document.getElementById("yenilepart").innerHTML=n;
      }, e);
 }
-terziniyenile(1500, "Terzini");
+terziniyenile(1500, "Tərzini");
 terziniyenile(3000, "Geyimini");
 terziniyenile(4500, "Mover ilə");
 terziniyenile(6000, "Kuryerini");
@@ -65,6 +65,24 @@ $(document).ready(function(){
         },
         1000:{
             items:3
+        }
+    }
+})
+
+$('.owl-theme1').owlCarousel({
+    loop:false,
+    margin:10,
+    nav:true,
+    startPosition:0,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:5
         }
     }
 })

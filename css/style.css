@@ -257,6 +257,13 @@ main #tariffs button {
   border-color: #cd374b;
 }
 
+main #subscriberscomment {
+  border: solid 2px white;
+  border-bottom-color: #ff4040;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 main #subscriberscomment .firstcard {
   color: #383838;
   font-size: 15px;
@@ -375,4 +382,132 @@ main #subscriberscomment .owl-carousel:after {
 main #subscriberscomment .owl-controls {
   position: absolute;
   margin-top: 300px;
+}
+
+main #partners {
+  border: solid 2px white;
+  border-bottom-color: #ff4040;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+main #partners h1 {
+  font-family: 'Bitter', serif;
+  font-size: 35px;
+  border: solid 2px white;
+  border-bottom-color: red;
+  width: 32%;
+}
+
+main #partners img {
+  max-width: 100%;
+}
+
+main #partners #img2 {
+  display: none;
+}
+
+main #partners .partnerscard:hover #img1 {
+  display: none;
+}
+
+main #partners .partnerscard:hover #img2 {
+  display: block;
+}
+
+main #exsites {
+  border: solid 2px white;
+  border-bottom-color: #ff4040;
+  padding-top: 30px;
+}
+
+main #exsites h1 {
+  font-family: 'Bitter', serif;
+  font-size: 35px;
+  border: solid 2px white;
+  border-bottom-color: red;
+  width: 32%;
+}
+
+main #exsites .owl-nav {
+  display: none;
+}
+
+main #moverforum .forumtext {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+main #moverforum .forumtext h5 {
+  padding-top: 15px;
+  text-align: center;
+  color: #cd374b;
+}
+
+main #moverforum .forumtext a {
+  text-decoration: none;
+  border: solid 1px #cd374b;
+  color: white;
+  background-color: #cd374b;
+  font-size: 14px;
+  padding: 10px 15px 10px 15px;
+  border-radius: 12px;
+}
+
+main #moverforum .forumtext a:hover {
+  color: #cd374b;
+  background-color: white;
+}
+
+main #moverforum .forumimages p {
+  padding-top: 120px;
+}
+
+footer img {
+  max-width: 100%;
+}
+
+footer ul {
+  float: left;
+  list-style: none;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+footer ul li {
+  padding-left: 12px;
+  display: inline-block;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+footer ul li a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+footer #footerright img {
+  height: 40px;
+  padding-right: 10px;
+}
+
+footer #footerright i {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 20px;
+  width: 60px;
+  height: 30px;
+  font-size: 25px;
+}
+
+footer #footerright #visasvg {
+  color: blue;
+}
+
+footer #footerright #mastersvg {
+  color: yellow;
 }

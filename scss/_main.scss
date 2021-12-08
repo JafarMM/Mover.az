@@ -145,8 +145,11 @@ main{
             border-color: #cd374b;
         }
     }
-
     #subscriberscomment{
+        border: solid 2px white;
+        border-bottom-color: rgb(255, 64, 64);
+        padding-top: 50px;
+        padding-bottom: 50px;
         .firstcard{
             color: rgb(56, 56, 56);
             font-size: 15px;
@@ -213,5 +216,75 @@ main{
     
         .owl-controls{position:absolute; margin-top:300px;}
     }
-
+    #partners{
+        border: solid 2px white;
+        border-bottom-color: rgb(255, 64, 64);
+        padding-top: 50px;
+        padding-bottom: 50px;
+        h1{
+            font-family: 'Bitter', serif;
+            font-size: 35px;
+            border: solid 2px white;
+            border-bottom-color: red;
+            width: 32%;
+        }
+        img{
+            max-width: 100%;
+        }
+        #img2{
+            display: none;
+        }
+        .partnerscard:hover{ 
+            #img1{
+                display: none; 
+            }
+            #img2{
+                display: block; 
+            }
+        }
+    }
+    #exsites{
+        border: solid 2px white;
+        border-bottom-color: rgb(255, 64, 64);
+        padding-top: 30px;
+        h1{
+            font-family: 'Bitter', serif;
+            font-size: 35px;
+            border: solid 2px white;
+            border-bottom-color: red;
+            width: 32%;
+        }
+        .owl-nav{
+            display: none;
+        }
+    }
+    #moverforum{
+        .forumtext{
+            padding-top: 20px;
+            padding-bottom: 20px;
+            h5{
+                padding-top: 15px;
+                text-align: center;
+                color: #cd374b;
+            }
+            a{
+                text-decoration: none;
+                border: solid 1px #cd374b;
+                color: white;
+                background-color: #cd374b;
+                font-size: 14px;
+                padding: 10px 15px 10px 15px;
+                border-radius: 12px;
+            }
+            a:hover{
+                color: #cd374b;
+                background-color: white;
+            }
+        }
+        .forumimages{
+            p{
+                padding-top: 120px;
+            }
+        }
+    }
 }
